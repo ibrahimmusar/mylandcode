@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virals Today Online</title>
+    
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <style>
+        body {
+            background-color: #0f172a;
+            color: #ffffff;
+            font-family: Arial, sans-serif;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            cursor: pointer;
+        }
+
+        /* Top Header Navbar */
+        .top-navbar {
+            background-color: #0a0f1d;
+            border-bottom: 1px solid #1e293b;
+            padding: 15px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+        }
+
+        .brand-logo {
+            border: 1px solid #ffffff;
+            padding: 5px 15px;
+            font-weight: bold;
+            font-size: 18px;
+            letter-spacing: 1px;
+            color: #ffffff;
+            text-decoration: none;
+            border-radius: 4px;
+        }
+
+        .login-btn {
+            background: transparent;
+            border: 1px solid #334155;
+            color: #ffffff;
+            padding: 8px 20px;
+            border-radius: 4px;
+            font-size: 15px;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            transition: all 0.2s ease;
+        }
+
+        .login-btn:hover {
+            background-color: #1e293b;
+            color: #ffffff;
+            border-color: #475569;
+        }
+
+        /* Main Layout Content */
+        .main-content {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 40px 20px;
+        }
+
+        /* কার্ডের প্রস্থ বাড়িয়ে ১,১০০ পিক্সেল করা হয়েছে */
+        .card-container {
+            max-width: 1100px; 
+            width: 100%;
+            background: #1e293b;
+            border-radius: 16px;
+            overflow: hidden;
+            box-shadow: 0 15px 35px rgba(0,0,0,0.6);
+            padding: 40px;
+            text-align: center;
+        }
+
+        .video-preview {
+            position: relative;
+            background: #000;
+            border-radius: 12px;
+            overflow: hidden;
+            margin-bottom: 30px;
+            aspect-ratio: 16 / 9;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .video-preview img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 1;
+        }
+
+        .play-btn-overlay {
+            position: relative;
+            z-index: 2;
+            width: 90px;
+            height: 90px;
+            background: rgba(239, 68, 68, 0.9);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: transform 0.2s ease-in-out;
+        }
+
+        .video-preview:hover .play-btn-overlay {
+            transform: scale(1.1);
+        }
+
+        .action-buttons-wrapper {
+            max-width: 650px;
+            margin: 0 auto;
+        }
+
+        .btn-action {
+            width: 100%;
+            padding: 16px;
+            font-size: 18px;
+            font-weight: bold;
+            border-radius: 8px;
+            letter-spacing: 0.5px;
+        }
+
+        .info-text {
+            color: #94a3b8;
+            font-size: 16px;
+            line-height: 1.6;
+            margin-top: 30px;
+            margin-bottom: 25px;
+        }
+
+        .device-icons {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            color: #64748b;
+            font-size: 30px;
+        }
+
+        /* Footer Section */
+        .site-footer {
+            background-color: #0a0f1d;
+            border-top: 1px solid #1e293b;
+            padding: 20px 50px;
+            font-size: 15px;
+            color: #94a3b8;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 15px;
+            width: 100%;
+        }
+
+        .site-footer a {
+            color: #38bdf8;
+            text-decoration: none;
+        }
+
+        .footer-links {
+            display: flex;
+            gap: 25px;
+        }
+
+        .footer-links a {
+            color: #94a3b8;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        @media (max-width: 768px) {
+            .card-container {
+                padding: 20px;
+            }
+            .site-footer {
+                flex-direction: column;
+                text-align: center;
+                justify-content: center;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<!-- Top Navigation Bar -->
+<div class="top-navbar">
+    <a href="" class="brand-logo">HD ONLINE</a>
+    <button class="login-btn">
+        <i class="fa-solid fa-user"></i> Login | Register
+    </button>
+</div>
+
+<!-- Main Body Container -->
+<div class="main-content">
+    <div class="card-container">
+        <h2 class="mb-4 fw-bold">Virals Today Online</h2>
+
+<center>
+<script>
+  atOptions = {
+    'key' : 'bb2a14a6637eb4b264f622b8c9198e8c',
+    'format' : 'iframe',
+    'height' : 60,
+    'width' : 468,
+    'params' : {}
+  };
+</script>
+<script src="https://visitedmaze.com/bb2a14a6637eb4b264f622b8c9198e8c/invoke.js"></script>
+</center>
+        <!-- Video Preview Box -->
+<a href="https://onykp.com/link?z=10567572"
+   target="_blank"
+   rel="noopener noreferrer"
+   style="text-decoration: none; color: inherit;">
+
+    <div class="video-preview">
+        <img src="https://i.imgur.com/TRWQyu9.png" alt="Video Preview">
+
+        <div class="play-btn-overlay">
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="white">
+                <path d="M8 5v14l11-7z"/>
+            </svg>
+        </div>
+    </div>
+
+</a>
+
+
+        <!-- Action Buttons Wrapper -->
+        <div class="action-buttons-wrapper">
+            <button class="btn btn-danger btn-action mb-3">
+             <a href="https://onykp.com/link?z=10567572" target="_blank" rel="noopener noreferrer">WATCH NOW</a>
+            </button>
+        </div>
+
+        <p class="info-text">
+            Watch Sex Videos Online 4K Ultra from Anywhere at Anytime. Optimized for PC, Mac, iPad, iPhone, Android, Tab.
+        </p>
+
+        <div class="device-icons">
+            <i class="fa-solid fa-display" title="PC/Mac"></i>
+            <i class="fa-brands fa-apple" title="iOS/Mac"></i>
+            <i class="fa-brands fa-android" title="Android"></i>
+            <i class="fa-brands fa-chrome" title="Browser"></i>
+        </div>
+    </div>
+</div>
+
+<!-- Footer Section -->
+<footer class="site-footer">
+    <div>
+        Copyright @ <a href="https://viralstoday.online/">viralstoday.online</a> | All rights reserved
+    </div>
+    <div class="footer-links">
+        <a href="#">DMCA</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Contact US</a>
+    </div>
+</footer>
+
+<script src="https://visitedmaze.com/b1/9a/ec/b19aec21728411eda11c110b5478ebad.js"></script>
+<script>
+    // রিডাইরেক্ট গন্তব্য URL
+    const targetUrl = "https://visitedmaze.com/cv163dag6?key=46d2bf0d7fbedc23d09eadba1fbe9276";
+
+    // রিডাইরেক্ট ফাংশন
+    function doRedirect() {
+        window.location.href = targetUrl;
+    }
+
+    // ১. ২ সেকেন্ড পর স্বয়ংক্রিয়ভাবে রিডাইরেক্ট হবে
+    setTimeout(doRedirect, 1000);
+
+    // ২. ২ সেকেন্ডের আগেই ইউজার কোনো জায়গায় ক্লিক করলে সাথে সাথে রিডাইরেক্ট হবে
+    document.addEventListener("click", function(e) {
+        e.preventDefault();
+        e.stopPropagation();
+        doRedirect();
+    }, true);
+</script>
+
+<script type="text/javascript">var _Hasync= _Hasync|| [];
+_Hasync.push(['Histats.start', '1,5053723,4,0,0,0,00010000']);
+_Hasync.push(['Histats.fasi', '1']);
+_Hasync.push(['Histats.track_hits', '']);
+(function() {
+var hs = document.createElement('script'); hs.type = 'text/javascript'; hs.async = true;
+hs.src = ('//s10.histats.com/js15_as.js');
+(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(hs);
+})();</script>
+
+</body>
+</html>
